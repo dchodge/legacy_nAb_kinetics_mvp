@@ -1,7 +1,11 @@
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(dplyr, tidyr, purrr, ggplot2, here, posterior, tidybayes,
-    cmdstanr, rstan, deSolve, patchwork, Rcpp, devtools, ptmc, coda, bayesplot,
+    rstan, deSolve, patchwork, Rcpp, devtools, coda, bayesplot,
     extraDistr, hmer, loo, ggh4x)
+
+
+# install cmdstanr
+# install.packages("cmdstanr", repos = c("https://stan-dev.r-universe.dev", getOption("repos")))
 
 #source(here::here("R/utils.R"))
 

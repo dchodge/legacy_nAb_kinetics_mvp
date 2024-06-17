@@ -6,7 +6,6 @@ outputs/figures/
 .RData
 .Rhistory
 .Rproj.user
-*.csv
 *.dcf
 manuscript/
 
